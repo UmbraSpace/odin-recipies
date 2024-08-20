@@ -14,3 +14,19 @@ li, p {
 h1, h2, li, p {
     font-family: Georgia, sans-serif;
 }
+
+#recipe-list {
+    display: flex;
+    list-style: none;
+}
+
+#recipe-list a {
+    display: block;
+    text-align: center;
+    margin: 0px 20px;
+    background-color: hsl(0, 0, 8);
+    color: white;
+    border: 5px solid rgb(103, 23, 168);
+    height: 80px;
+    width: 200px;
+}
